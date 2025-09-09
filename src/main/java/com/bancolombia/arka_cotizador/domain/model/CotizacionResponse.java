@@ -1,0 +1,14 @@
+package com.bancolombia.arka_cotizador.domain.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CotizacionResponse extends Cotizacion {
+
+    private double total;
+    
+}
